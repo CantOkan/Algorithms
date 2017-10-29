@@ -40,7 +40,7 @@ void display()
 }
 void reverse()
 {
-	struct node *prev   = NULL;
+    struct node *prev   = NULL;
     struct node *current = head;
     struct node *next;
     while (current != NULL)
